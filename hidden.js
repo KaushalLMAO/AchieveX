@@ -15,3 +15,6 @@ if (hidden1) {
 if (hidden2) {
   ul2.style.color = "yellow";
 }
+if (hidden3) {
+  ul3.style.color = "yellow";
+}

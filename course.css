@@ -122,7 +122,7 @@ main {
 
   padding: 20px;
 }
-.video {
+.cvideo {
   background-color: #f2f2f2;
   width: 100%;
   border-radius: 5px;
@@ -143,4 +143,32 @@ main {
 
 .video:hover {
   background-color: #e6e6e6;
+}
+/* thatlistone */
+
+.maybehidden ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.maybehidden li {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #e9f0fb;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #2a4d9b;
+}
+.mmain {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.maybehidden {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  background-color: #f2f2f2;
 }
