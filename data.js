@@ -65,13 +65,9 @@ if (course) course.textContent = `${courseDetails.length}+`;
 
 //course videos
 let total = 0;
-
+let sumvideo = 0;
 if (mainVideo) {
   for (i = 0; i < courseDetails.length; i++) {
-    let topicsHTML = `<li> </li>`;
-    for (let j = 0; j < courseDetails[i].Subname.length; j++) {
-      topicsHTML += `<li>${courseDetails[i].Subname[j]}</li>`;
-    }
     let details = `
     <div class="mmain">
     <div class="cvideo" id="${courseDetails[i].mid}">
@@ -84,15 +80,12 @@ if (mainVideo) {
             <h1 class="arrow">→</h1>
           </div>
         </div>
-        <div class="maybehidden">
-        <ul type="none">
-          ${topicsHTML}
-        </ul>
-        </div>
-        </div>`;
+       `;
 
     total += courseDetails[i].videoUrl.length;
     totalVideos.textContent = `${total}+`;
     mainVideo.innerHTML += details;
+    sumvideo += courseDetails[i].videoUrl.length;
   }
 }
+if (totalVideos) totalVideos.textContent = `${sumvideo}+`;
