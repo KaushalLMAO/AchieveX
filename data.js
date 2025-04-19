@@ -6,15 +6,7 @@ let mainVideo = document.getElementById("video-course");
 
 // Data
 const teachersData = ["Kaushal Gautam", "Rahul Aryal", "Aaryan Khatiwada"];
-const gameData = [
-  {
-    id: 1,
-    Mainname: "Simulation Sphere",
-    Subname: ["Roblox Studio"],
-    picUrl: "https://aadarsha-bh.github.io/SimulationSphere/Logo2.svg",
-    videoUrl: [],
-  },
-];
+
 let courseDetails = [
   {
     mid: "video1",
