@@ -47,7 +47,9 @@ let courseDetails = [
       "Nepali",
     ],
     picUrl: "scienceban.png",
-    videoUrl: [],
+    videoUrl: [
+      "https://www.youtube.com/watch?v=VB-glB6iJ74&t=626s&ab_channel=Excellon",
+    ],
   },
 ];
 
